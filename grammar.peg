@@ -1,0 +1,38 @@
+text = F them:connection* F {
+  return them.join(" ");
+}
+F = x:[^a-zA-Z]* { return /*(x.join("").replace(/\s/g, "").length ? "<" + x.join("") + ">" : "")*/; }
+
+connection = left:verb right:verb more:ROI_clause* {
+  return "[" + left + " " + right + (more.length ? " " + more.join(" ") : "") + "]";
+}
+
+ROI_clause = l:ROI r:verb {
+  return "(" + l + " " + r + ")";
+}
+
+verb = F it:(doq / WO) F {
+  return it;
+}
+
+doq = F it:(((syllable_ (n / l))+ syllable_ q?) / (syllable_ q)) F {
+  return it.toString().replace(/,/g,"");
+}
+
+WO  = &syllable x:("co" / "fe" / "wai" / "wo") {return x}
+ROI = &syllable x:("roi") {return x}
+YU  = &syllable x:("gyu" / "ju" / "yu" / "zo") {return x}
+// will add later: DA1 = &syllable ("da" / "mya")
+
+syllable = syllable_ N?
+syllable_ = (initialC C? G? / G) V V?
+
+// [f] and [v] not yet in the reference grammar
+C = [bBcCdDfFgGhHjJkKlLmMnNpPqQrRsStTvVzZ]
+initialC = [bBcCdDfFgGhHjJkKmMpPrRsStTvVzZ]
+G = [yYwW]
+V = [aAeEiIoOuU]
+N = [nNlLqQ]
+n = [nN]
+l = [lL]
+q = [qQ]
