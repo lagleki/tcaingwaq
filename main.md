@@ -2,42 +2,43 @@
 by uakci
 
 ## Table of Contents
+
 1. Introduction
-- 1. Design goals
-- 2. Why not taking on Lojban's solution?
-- 3. Licensing and forking
+  1. Design goals
+  2. Why not taking on Lojban's solution?
+  3. Licensing and forking
 2. Phonology
-- 1. The sounds
-- 2. Syllable shape
+  1. The sounds
+  2. Syllable shape
 3. Morphology
 4. Basics
-- 1. "Verbs" and English
-- 2. Your first sentence
-- 3. Me and you
-- 4. More connections
-- 5. The ABCs
-- 6. Relation triangles
-- 7. Unary connections
-- 8. Numbers
+  1. "Verbs" and English
+  2. Your first sentence
+  3. Me and you
+  4. More connections
+  5. The ABCs
+  6. Relation triangles
+  7. Unary connections
+  8. Numbers
 5. Words' words
-- 1. My name and my words
-- 2. Someone's words
+  1. My name and my words
+  2. Someone's words
 6. The abstract world
-- 1. Events
-- 2. Traits
-- 3. Facts
-- 4. Other uses of the patterns
-- 5. Coersion
+  1. Events
+  2. Traits
+  3. Facts
+  4. Other uses of the patterns
+  5. Coersion
 7. New things
-- 1. Makeshift words
-- 2. New concepts
-. Lexicon
-. Sample texts
---
+  1. Makeshift words
+  2. New concepts
+8. Lexicon
+9. Sample texts
 
 ## 1. Introduction
 
 ### 1.1. Design goals
+
 * to be a logical language; to be based on predicate logic
 * not to be a relex (like original Lojban which was basically Loglan); be a standalone loglang
 * to be concise and practical in use; to be based on easy, short and universal patterns
@@ -48,84 +49,91 @@ Thus, Tcaingwaq shall try it afresh.
 
 ### 1.3. Licensing and forking
 I hereby declare that the language belongs to the open domain. You're free to copy and modify this document and even use the same name without any permission (but I'd like to be notified).
-Forking is the thing that keeps the language alive. Once this document lands on GitHub, you can freely fork it. (Pull Requests of good features always welcome)
+Forking is the thing that keeps the language alive. You are free to fork this.
 
 ## 2. Phonology
 
 ### 2.1. The sounds
-There are five wovels:
-/a/ <a>, /i/ <i>, /u/ <u>, /e/ <e>, /o/ <o>
-(pronounced "ah", "ee", "oo", "eh", "oh"; without the extra bits English tends to add)
 
-Two so-called semivowels:
-/w/ <w>, /j/ <y>
-(pronounced as "w" and "y" as in "wine" and "yet")
+There are:
 
-Sixteen consonants:
-/p/ <p>, /b/ <b>, /t/ <t>, /d/ <d>, /k/ <k>, /g/ <g>
-/r/ <r>
-/n/ <n>, /m/ <m>, /ŋ/ <q>
-/s/ <s>, /z/ <z>, /ʃ/ <c>, /ʒ/ <j>, /h/ <h>
-/l/ <l>
-(<q> is pronounced like "ng"; <c> - "sh"; <j> - "zh")
+* five wovels: /a/ \<a\>, /i/ \<i\>, /u/ \<u\>, /e/ \<e\>, /o/ \<o\> (pronounced approximately "ah", "ee", "oo", "eh", "oh"; without the extra bits English tends to add)
+* two so-called semivowels: /w/ \<w\>, /j/ \<y\> (pronounced as "w" and "y" as in "wine" and "yet")
+* sixteen consonants: /p/ \<p\>, /b/ \<b\>, /t/ \<t\>, /d/ \<d\>, /k/ \<k\>, /g/ \<g\>, /r/ \<r\>, /n/ \<n\>, /m/ \<m\>, /ŋ/ \<q\>, /s/ \<s\>, /z/ \<z\>, /ʃ/ \<c\>, /ʒ/ \<j\>, /h/ \<h\>, /l/ \<l\> (\<q\> is pronounced like "ng"; \<c\> - "sh"; \<j\> - "zh")
 
 All the sounds can be pronounced differently, as long as they can be clearly distinguished.
 
 ### 2.2. Syllable shape
 The syllables always have these parts (in order)
+
 * all consonants expect l/n/q or a pair of consonants AND/OR an optional j/w 
 * a vowel or a diphtong (pair of vowels)
 * an optional l/n/q
-For example: ga, bra, wo, gaun, dryauq
+
+For example: *ga*, *bra*, *wo*, *gaun*, *dryauq*
 
 ## 3. Morphology
 
 There are two word shapes: verb, particle. A particle is a small word carrying not meaning, but grammatical significance.
-The particle shape: one syllable without an <n/l/q> at the end
-- e.g. ge, ba, brau, bryoi
-The verb shape: syllable(s) with <n/l> at the end + a syllable with <q> or nothing at the end OR a syllable with a <q> at the end
-- e.g. ganbei, brulfa, guljeldjenmelfelpye; daq, fryauq
+
+The particle shape: one syllable without an *n*/*l*/*q* at the end e.g. ge, ba, brau, bryoi
+
+The verb shape: syllable(s) with *n*/*l* at the end + a syllable with *q* or nothing at the end OR a syllable with a *q* at the end e.g. *ganbei*, *brulfa*, *guljeldjenmelfelpye*; *daq*, *fryauq*
 
 ## 4. Basics
 
 ### 4.1. "Verbs" and English
 A Tcaingwaq verb differs greatly from an English verb. It can stand for what in English is an adjective or a noun, and works like a sentence with slots to be filled in.
 Let's look at an example of a verb:
-    taq - A talks to B about C
+
+* *taq* - A talks to B about C
+
 We have three slots: A, B and C. All of these slots represent objects (the talker, the one talked to and the topic) essential for the concept of talking.
 Let's have a go at another verb:
-    palkei - A is a potato from plant B
+
+* *palkei* - A is a potato from plant B
+
 As we can see, this verb is more 'nouny', yet it functions as a verb.
 
 ### 4.2. Your first sentence
 Now, enough talk about verbs, let's get to know how to use them.
 To say that there is a thing that matches the A's of both verbs, we put them one after another. So:
-(1) taq palkei
-    talk.A potato.A
-    "there is a thing that talks and is a potato"; "talking potato"; "a potato talks"
-Now, you may wonder, is there some meaning to the word order? Does (1) signify that a talker is a potato, but not the other way? Well,
-(2) palkei taq
-    potato.A talk.A
-    "there is a thing that is a potato and talks"; "talking potato"; "a potato talks"
-no.
+
+* *taq palkei*
+ talk.A potato.A
+ "there is a thing that talks and is a potato"; "talking potato"; "a potato talks"
+
+Now, you may wonder, is there some meaning to the word order? Does this example signify that a talker is a potato, but not the other way? Well,
+
+* palkei taq
+ potato.A talk.A
+ "there is a thing that is a potato and talks"; "talking potato"; "a potato talks"
+
+those statements are equivalent.
 
 ### 4.3. Me and you
-Let's move on to some more complex sentences. What about us? Me and you, we all express our actions using words like "me" and "you". In Tcaingwaq, those are verbs too! You thought it couldn't get crazier, right? Let's introduce "wai" and "fe":
-    wai - A is me, the speaker
-    fe - A is you, the listener
-So, you can guess how to say "I talk" or "you're a potato":
-(3) wai taq
-    me.A talk.A
-    "I talk"
-(4) fe palkei
-    you.A potato.A
-    "You're a potato"
+Let's move on to some more complex sentences. What about us? Me and you, we all express our actions using words like "me" and "you". In Tcaingwaq, those are verbs too! You thought it couldn't get crazier, right? Let's introduce *wai* and *fe*:
+
+* *wai* - A is me, the speaker
+* *fe* - A is you, the listener
+
+So, it's very easy to say "I talk" or "you're a potato":
+
+* wai taq
+ me.A talk.A
+ "I talk"
+
+* fe palkei
+ you.A potato.A
+ "You're a potato"
 
 ### 4.4. More connections
-Now, the problem with the sentences so far is that "X is Y" is the limit of what we can accomplish. Suppose we want to say, "I talk to you". In order to do that, we need to access the B of taq. But how? Let's try this:
-(5)*wai taq fe
-    me.A talk.A you.A
-    "I talk. You (...)"
+Now, the problem with the sentences so far is that "X is Y" is the limit of what we can accomplish. Suppose we want to say, "I talk to you". In order to do that, we need to access the B of *taq*. But how? Let's try this:
+
+* ~*wai taq fe*~
+ me.A talk.A you.A
+ "I talk. You (...)"
+
 The problem here is that the verbs always group in two, so that one can conveniently express sentences one after another. Here, "wai taq" groups into one sentence, and "fe" starts another. Yet, the other part of the second sentence isn't there, so the sentence awaits completion (or is ungrammatical).
 We need a way to express that B, the one to whom I talk. We need a verb for that:
     wo - repeat the preceding verb (or another "wo" if present), using the first open slot
