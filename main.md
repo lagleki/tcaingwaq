@@ -76,9 +76,9 @@ For example: *ga*, *bra*, *wo*, *gaun*, *dryauq*
 
 There are two word shapes: verb, particle. A particle is a small word carrying not meaning, but grammatical significance.
 
-The particle shape: one syllable without an *n*/*l*/*q* at the end e.g. ge, ba, brau, bryoi
+The particle shape: one syllable without an -n/l/q at the end e.g. ge, ba, brau, bryoi
 
-The verb shape: syllable(s) with *n*/*l* at the end + a syllable with *q* or nothing at the end OR a syllable with a *q* at the end e.g. *ganbei*, *brulfa*, *guljeldjenmelfelpye*; *daq*, *fryauq*
+The verb shape: syllable(s) with -n/l at the end + a syllable with -q or nothing at the end; *or* a syllable with a -q at the end e.g. `ganbei`, `brulfa`, `guljeldjenmelfelpye`; `daq`, `fryauq`
 
 ## 4. Basics
 
@@ -86,12 +86,12 @@ The verb shape: syllable(s) with *n*/*l* at the end + a syllable with *q* or not
 A Tcaingwaq verb differs greatly from an English verb. It can stand for what in English is an adjective or a noun, and works like a sentence with slots to be filled in.
 Let's look at an example of a verb:
 
-* *taq* - A talks to B about C
+* `taq` - A talks to B about C
 
 We have three slots: A, B and C. All of these slots represent objects (the talker, the one talked to and the topic) essential for the concept of talking.
 Let's have a go at another verb:
 
-* *palkei* - A is a potato from plant B
+* `palkei` - A is a potato from plant B
 
 As we can see, this verb is more 'nouny', yet it functions as a verb.
 
@@ -99,91 +99,109 @@ As we can see, this verb is more 'nouny', yet it functions as a verb.
 Now, enough talk about verbs, let's get to know how to use them.
 To say that there is a thing that matches the A's of both verbs, we put them one after another. So:
 
-* *taq palkei*
+* `taq palkei`
  talk.A potato.A
  "there is a thing that talks and is a potato"; "talking potato"; "a potato talks"
 
 Now, you may wonder, is there some meaning to the word order? Does this example signify that a talker is a potato, but not the other way? Well,
 
-* palkei taq
+* `palkei taq`
  potato.A talk.A
  "there is a thing that is a potato and talks"; "talking potato"; "a potato talks"
 
 those statements are equivalent.
 
 ### 4.3. Me and you
-Let's move on to some more complex sentences. What about us? Me and you, we all express our actions using words like "me" and "you". In Tcaingwaq, those are verbs too! You thought it couldn't get crazier, right? Let's introduce *wai* and *fe*:
+Let's move on to some more complex sentences. What about us? Me and you, we all express our actions using words like "me" and "you". In Tcaingwaq, those are verbs too! You thought it couldn't get crazier, right? Let's introduce `wai` and `fe`:
 
-* *wai* - A is me, the speaker
-* *fe* - A is you, the listener
+* `wai` - A is me, the speaker
+* `fe` - A is you, the listener
 
 So, it's very easy to say "I talk" or "you're a potato":
 
-* wai taq
+* `wai taq`
  me.A talk.A
  "I talk"
 
-* fe palkei
+* `fe palkei`
  you.A potato.A
  "You're a potato"
 
 ### 4.4. More connections
-Now, the problem with the sentences so far is that "X is Y" is the limit of what we can accomplish. Suppose we want to say, "I talk to you". In order to do that, we need to access the B of *taq*. But how? Let's try this:
+Now, the problem with the sentences so far is that "X is Y" is the limit of what we can accomplish. Suppose we want to say, "I talk to you". In order to do that, we need to access the B of `taq`. But how? Let's try this:
 
-* ~*wai taq fe*~
+* ~`wai taq fe`~
  me.A talk.A you.A
  "I talk. You (...)"
 
-The problem here is that the verbs always group in two, so that one can conveniently express sentences one after another. Here, "wai taq" groups into one sentence, and "fe" starts another. Yet, the other part of the second sentence isn't there, so the sentence awaits completion (or is ungrammatical).
+The problem here is that the verbs always group in two, so that one can conveniently express sentences one after another. Here, `wai taq` groups into one sentence, and `fe` starts another. Yet, the other part of the second sentence isn't there, so the sentence awaits completion (or is ungrammatical).
 We need a way to express that B, the one to whom I talk. We need a verb for that:
-    wo - repeat the preceding verb (or another "wo" if present), using the first open slot
+
+* `wo` - repeat the preceding verb (or another `wo` if present), using the first open slot
+
 This lets us break down a sentence into two: "I talk. You are the person talked to". The difference between this rough translation and what we're trying to say is that the two "talk"s are refering to the same relation. Let's proceed to the sentence:
-(6) wai taq wo fe
-    me.A talk.A *talk.B you.A
-    "I talk; and the talker of that is you"; "I talk to you"
-If there's more than just one thing to glue, you can repeat "wo". For example:
-(7) wai taq wo fe wo palkei
-    me.A talk.A *talk.B you.A *talk.C potato.A
+
+* wai taq wo fe
+ me.A talk.A *talk.B you.A
+ "I talk; and the talker of that is you"; "I talk to you"
+
+If there's more than just one thing to glue, you can repeat `wo`. For example:
+
+* wai taq wo fe wo palkei
+    me.A talk.A \*talk.B you.A \*talk.C potato.A
     "I talk to you about a potato"
 
 ### 4.5. The ABCs
 So, you know how to "glue". But how can you refer to the Bs and Cs individually? That's the job of a series of these particles:
-    yu - use the B slot of a verb
-    ju - use the C slot of a verb
+
+* `yu` - use the B slot of a verb
+* `ju` - use the C slot of a verb
+
 These particles follow the verbs to choose the desired slot. Let's talk about potato plants:
-(8) taq-ju palkei-yu
-    talk-C potato-B
-    "A topic of conversation is a potato"; "I'm talking about potatoes"
+
+* `taq-ju palkei-yu`
+ talk-C potato-B
+ "A topic of conversation is a potato"; "I'm talking about potatoes"
+ 
 You may have this question now: how did that "I" slip into the translation? Vagueness. The sentence is vague, that is, the talker isn't specified. It could be me, that rock or the same potato. When a slot isn't specified, it's ignored.
 
 ### 4.6. Relation triangles
-It sometimes is that we want to express a relation of three verbs. For example, while "weird potato" ("heq palkei") is a relation of two verbs, "weird talking potato" is of three. Yet, we need a way to have such a relation. In order to stick a third verb to form a triangle, use the word "roi":
-    roi (ROI) - add a third (fourth...) verb to a connection
+It sometimes is that we want to express a relation of three verbs. For example, while "weird potato" (`heq palkei`) is a relation of two verbs, "weird talking potato" is of three. Yet, we need a way to have such a relation. In order to stick a third verb to form a triangle, use the word "roi":
+
+* `roi` (ROI) - add a third (fourth...) verb to a connection
+
 Now, "weird talking potato" would be:
-(9) heq taq roi palkei
-    "weird talking potato"
+
+* `heq taq roi palkei`
+ "weird talking potato"
 
 ### 4.7. Unary connections
 While we can now handle cases with two, three, four, and even more connections, we haven't yet discussed the case in which there's just one connection to be made. This is not correct:
-(10)*palkei
-     "potato (...?)"
-In order to make a sentence "Something is a potato", we have to coerce it into a binary connection with "co".
-    co (WO) - vague verb
-"co" doesn't mean anything. It can stand for any verb and any relation. Now we can say:
-(11) co palkei
-     "something is a potato"
-or:
-(12) palkei co
-     "a potato is something" = "something is a potato"
+
+* ~`palkei`~
+ "potato (...?)"
+
+In order to make a sentence "Something is a potato", we have to coerce it into a binary connection with `co`.
+
+* `co` (WO) - vague verb
+
+`co` doesn't mean anything. It can stand for any verb and any relation. Now we can say:
+
+* `co palkei`
+ "something is a potato"
+* `palkei co`
+ "a potato is something" = "something is a potato"
 
 ### 4.8. Numbers
 [TODO]
 
 ## 5. Words' words
 
-### 5.1. My name and my words
+### 5.1. My name and my words {FIX!!!}
 First, let's learn how to use names. How does one say "name"? In Tcaingwaq, it is:
-    naiq - A is the name of B given by C
+
+* `naiq` - A is the name of B given by C
+
 But how to quote a name to use it with naiq's A? 
 There's a series of words to quote and use names:
             Name Thing named
@@ -212,32 +230,41 @@ Now, what's the restriction? Well, to keep everything clean, the quoted text mus
 ### 5.2. Someone's words
 [(quoting) TODO]
 
-## 6. The abstract world
+## 6. The abstract world {FIX!!!}
 
 ### 6.1. Events
-It sometimes is that we want to refer to some particular event. In order to do that, it's not sufficient to put two verbs next to each other. We need a particle! This time, it is "so" of the new class SO:
-    so (SO) - turns connection into verb: A is the event of [the connection]
+
+It sometimes is that we want to refer to some particular event. In order to do that, it's not sufficient to put two verbs next to each other. We need a particle! This time, it is `so` of the new class SO:
+
+* `so` (SO) - turns connection into verb: A is the event of [the connection]
+
 Let's have a look at some examples:
-(1) wai diaq wo so fe beq
-    me.A see.A | *see.B the.event.of(you.A eat.A).A
-    "I see an event of you eating"; "I see that you eat"
-(2) so fe palkei heq
-    the.event.of(you.A potato.A).A weird.A
-    "There's a weird thing that is the event of you being a potato"; "That you're a potato is weird"
+
+* `wai diaq wo so fe beq`
+ me.A see.A | *see.B the.event.of(you.A eat.A).A
+ "I see an event of you eating"; "I see that you eat"
+* `so fe palkei heq`
+ the.event.of(you.A potato.A).A weird.A
+ "There's a weird thing that is the event of you being a potato"; "That you're a potato is weird"
+ 
 There's also a YU version of "so" for convenience, "zo":
-(3) diaq kioq-zo
-    see.A die-event.A
-    "I see death"
+
+* `diaq kioq-zo`
+ see.A die-event.A
+ "I see death"
 
 ### 6.2. Traits
-Traits are like events, but differ in usage. They have an assumed slot for a verb to be passed in. Just like in real life, traits are possessed by things, and so a Tcaingwaq trait is possessed by all the things the verbs of which fit into the slot. Because of the nature of traits, a different syntax is used. Thus, let's introduce the class YU's member, "su":
-    su (YU) - turns verb into verb: A is the trait of [verb]-ing ([verb]'s non-A places follow)
-For example, if verb "taq" is "A talks to B about C", then "taq-su" is "A is the trait of talking to B about C".
-Let's piece up a simple example:
-(4) hyoiq-yu taq-su wo fe
-    want-B talking-trait.A *talking.trait.B you.A
+Traits are like events, but differ in usage. They have an assumed slot for a verb to be passed in. Just like in real life, traits are possessed by things, and so a Tcaingwaq trait is possessed by all the things the verbs of which fit into the slot. Because of the nature of traits, a different syntax is used. Thus, let's introduce the class YU's member, `su`:
 
-### 6.3. Relations
+* `su` (YU) - turns verb into verb: A is the trait of [verb]-ing ([verb]'s non-A places follow)
+
+For example, if verb `taq` is "A talks to B about C", then `taq-su` is "A is the trait of talking to B about C".
+Let's piece up a simple example:
+
+* `hyoiq-yu taq-su wo fe`
+ want-B talking-trait.A *talking.trait.B you.A
+
+### 6.3. Relations {FIX!!!!!!!}
 [Relations are relations (duh) of two or more objects. To express them, use the word "lai":
     lai (SO) - turns connection into verb: A is a relation of [the connection]; binds "mau" in the enclosed connection
     mau (WO) - stands for one of the related objects FIX]
@@ -252,8 +279,10 @@ There are things that may not be the truth, but we want to express anyway. (...)
 ### 7.1. Makeshift words
 Sometimes language doesn't provide us with all the concepts we need for communication; even if it did, we'd never know them. While there may be some loanworded concepts in the dictionary already, it sometimes is required to create a word on the fly. 
 Tcaingwaq provides us with a quite limited syllable structure, so words need to be reduced in the coda (the part of the syllable after the vowel) - we must put -n or -l in the middle of the word, and -q or nothing at the end. There are two patterns one can use to make a good loanword:
+
 - ignore the codas entirely, and use whichever of -n/-l fits better; or
 - intertwine the codas with vowels.
+
 [EXAMPLES]
 
 ### 7.2. New concepts
