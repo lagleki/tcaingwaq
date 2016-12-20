@@ -99,14 +99,14 @@ As we can see, this verb is more 'nouny', yet it functions as a verb.
 Now, enough talk about verbs, let's get to know how to use them.
 To say that there is a thing that matches the A's of both verbs, we put them one after another. So:
 
-* `taq palkei`
- talk.A potato.A
+* `taq palkei`  
+ talk.A potato.A  
  "there is a thing that talks and is a potato"; "talking potato"; "a potato talks"
 
 Now, you may wonder, is there some meaning to the word order? Does this example signify that a talker is a potato, but not the other way? Well,
 
-* `palkei taq`
- potato.A talk.A
+* `palkei taq`  
+ potato.A talk.A  
  "there is a thing that is a potato and talks"; "talking potato"; "a potato talks"
 
 those statements are equivalent.
@@ -119,19 +119,19 @@ Let's move on to some more complex sentences. What about us? Me and you, we all 
 
 So, it's very easy to say "I talk" or "you're a potato":
 
-* `wai taq`
- me.A talk.A
+* `wai taq`  
+ me.A talk.A  
  "I talk"
 
-* `fe palkei`
- you.A potato.A
+* `fe palkei`  
+ you.A potato.A  
  "You're a potato"
 
 ### 4.4. More connections
 Now, the problem with the sentences so far is that "X is Y" is the limit of what we can accomplish. Suppose we want to say, "I talk to you". In order to do that, we need to access the B of `taq`. But how? Let's try this:
 
-* ~`wai taq fe`~
- me.A talk.A you.A
+* `wai taq fe` (incorrect!)  
+ me.A talk.A you.A  
  "I talk. You (...)"
 
 The problem here is that the verbs always group in two, so that one can conveniently express sentences one after another. Here, `wai taq` groups into one sentence, and `fe` starts another. Yet, the other part of the second sentence isn't there, so the sentence awaits completion (or is ungrammatical).
@@ -141,14 +141,14 @@ We need a way to express that B, the one to whom I talk. We need a verb for that
 
 This lets us break down a sentence into two: "I talk. You are the person talked to". The difference between this rough translation and what we're trying to say is that the two "talk"s are refering to the same relation. Let's proceed to the sentence:
 
-* wai taq wo fe
- me.A talk.A *talk.B you.A
+* wai taq wo fe  
+ me.A talk.A \*talk.B you.A  
  "I talk; and the talker of that is you"; "I talk to you"
 
 If there's more than just one thing to glue, you can repeat `wo`. For example:
 
-* wai taq wo fe wo palkei
-    me.A talk.A \*talk.B you.A \*talk.C potato.A
+* wai taq wo fe wo palkei  
+    me.A talk.A \*talk.B you.A \*talk.C potato.A  
     "I talk to you about a potato"
 
 ### 4.5. The ABCs
@@ -159,8 +159,8 @@ So, you know how to "glue". But how can you refer to the Bs and Cs individually?
 
 These particles follow the verbs to choose the desired slot. Let's talk about potato plants:
 
-* `taq-ju palkei-yu`
- talk-C potato-B
+* `taq-ju palkei-yu`  
+ talk-C potato-B  
  "A topic of conversation is a potato"; "I'm talking about potatoes"
  
 You may have this question now: how did that "I" slip into the translation? Vagueness. The sentence is vague, that is, the talker isn't specified. It could be me, that rock or the same potato. When a slot isn't specified, it's ignored.
@@ -172,13 +172,13 @@ It sometimes is that we want to express a relation of three verbs. For example, 
 
 Now, "weird talking potato" would be:
 
-* `heq taq roi palkei`
+* `heq taq roi palkei`  
  "weird talking potato"
 
 ### 4.7. Unary connections
 While we can now handle cases with two, three, four, and even more connections, we haven't yet discussed the case in which there's just one connection to be made. This is not correct:
 
-* ~`palkei`~
+* `palkei` (incorrect!)  
  "potato (...?)"
 
 In order to make a sentence "Something is a potato", we have to coerce it into a binary connection with `co`.
@@ -187,9 +187,9 @@ In order to make a sentence "Something is a potato", we have to coerce it into a
 
 `co` doesn't mean anything. It can stand for any verb and any relation. Now we can say:
 
-* `co palkei`
+* `co palkei`  
  "something is a potato"
-* `palkei co`
+* `palkei co`  
  "a potato is something" = "something is a potato"
 
 ### 4.8. Numbers
@@ -240,17 +240,17 @@ It sometimes is that we want to refer to some particular event. In order to do t
 
 Let's have a look at some examples:
 
-* `wai diaq wo so fe beq`
- me.A see.A | *see.B the.event.of(you.A eat.A).A
+* `wai diaq wo so fe beq`  
+ me.A see.A | \*see.B the.event.of(you.A eat.A).A  
  "I see an event of you eating"; "I see that you eat"
-* `so fe palkei heq`
- the.event.of(you.A potato.A).A weird.A
+* `so fe palkei heq`  
+ the.event.of(you.A potato.A).A weird.A  
  "There's a weird thing that is the event of you being a potato"; "That you're a potato is weird"
  
 There's also a YU version of "so" for convenience, "zo":
 
-* `diaq kioq-zo`
- see.A die-event.A
+* `diaq kioq-zo`  
+ see.A die-event.A  
  "I see death"
 
 ### 6.2. Traits
@@ -261,8 +261,8 @@ Traits are like events, but differ in usage. They have an assumed slot for a ver
 For example, if verb `taq` is "A talks to B about C", then `taq-su` is "A is the trait of talking to B about C".
 Let's piece up a simple example:
 
-* `hyoiq-yu taq-su wo fe`
- want-B talking-trait.A *talking.trait.B you.A
+* `hyoiq-yu taq-su wo fe`  
+ want-B talking-trait.A \*talking.trait.B you.A
 
 ### 6.3. Relations {FIX!!!!!!!}
 [Relations are relations (duh) of two or more objects. To express them, use the word "lai":
