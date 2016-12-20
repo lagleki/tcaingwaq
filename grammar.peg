@@ -12,7 +12,7 @@ RO_clause = l:RO r:verb {
 }
 
 verb = F it:(doq YU* / WO YU* / SO_clause) F {
-  return it.join("-");
+  return (Array.isPrototypeOf(it) ? it.join("-") : it);
 }
 
 SO_clause = F so:SO yu:YU* c:connection F {
