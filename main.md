@@ -29,9 +29,6 @@ by uakci
   3. Facts
   4. Other uses of the patterns
   5. Coersion
-7. New things
-  1. Makeshift words
-  2. New concepts
 8. Lexicon
 9. Sample texts
 
@@ -70,7 +67,7 @@ The syllables always have these parts (in order)
 * a vowel or a diphtong (pair of vowels)
 * an optional l/n/q
 
-For example: *ga*, *bra*, *wo*, *gaun*, *dryauq*
+For example: `ga`, `bra`, `wo`, `gaun`, `dryauq`
 
 ## 3. Morphology
 
@@ -112,17 +109,16 @@ Now, you may wonder, is there some meaning to the word order? Does this example 
 those statements are equivalent.
 
 ### 4.3. Me and you
-Let's move on to some more complex sentences. What about us? Me and you, we all express our actions using words like "me" and "you". In Tcaingwaq, those are verbs too! You thought it couldn't get crazier, right? Let's introduce `wai` and `fe`:
+Let's move on to some more complex sentences. What about us? Me and you, we all express our actions using words like "me" and "you". In Tcaingwaq, those are verbs too! You thought it couldn't get crazier, right? Let's introduce `wa` and `fe`:
 
-* `wai` - A is me, the speaker
+* `wa` - A is me, the speaker
 * `fe` - A is you, the listener
 
 So, it's very easy to say "I talk" or "you're a potato":
 
-* `wai taq`  
+* `wa taq`  
  me.A talk.A  
  "I talk"
-
 * `fe palkei`  
  you.A potato.A  
  "You're a potato"
@@ -130,26 +126,28 @@ So, it's very easy to say "I talk" or "you're a potato":
 ### 4.4. More connections
 Now, the problem with the sentences so far is that "X is Y" is the limit of what we can accomplish. Suppose we want to say, "I talk to you". In order to do that, we need to access the B of `taq`. But how? Let's try this:
 
-* `wai taq fe` (incorrect!)  
+* `wa taq fe` (incorrect!)  
  me.A talk.A you.A  
  "I talk. You (...)"
 
-The problem here is that the verbs always group in two, so that one can conveniently express sentences one after another. Here, `wai taq` groups into one sentence, and `fe` starts another. Yet, the other part of the second sentence isn't there, so the sentence awaits completion (or is ungrammatical).
+The problem here is that the verbs always group in two, so that one can conveniently express sentences one after another. Here, `wa taq` groups into one sentence, and `fe` starts another. Yet, the other part of the second sentence isn't there, so the sentence awaits completion (or is ungrammatical).
 We need a way to express that B, the one to whom I talk. We need a verb for that:
 
 * `wo` - repeat the preceding verb (or another `wo` if present), using the first open slot
 
 This lets us break down a sentence into two: "I talk. You are the person talked to". The difference between this rough translation and what we're trying to say is that the two "talk"s are refering to the same relation. Let's proceed to the sentence:
 
-* wai taq wo fe  
+* wa taq wo fe  
  me.A talk.A \*talk.B you.A  
  "I talk; and the talker of that is you"; "I talk to you"
 
+Here, the referentiality is marked with an asterisk (\*).
+
 If there's more than just one thing to glue, you can repeat `wo`. For example:
 
-* wai taq wo fe wo palkei  
-    me.A talk.A \*talk.B you.A \*talk.C potato.A  
-    "I talk to you about a potato"
+* wa taq wo fe wo palkei  
+ me.A talk.A \*talk.B you.A \*talk.C potato.A  
+ "I talk to you about a potato"
 
 ### 4.5. The ABCs
 So, you know how to "glue". But how can you refer to the Bs and Cs individually? That's the job of a series of these particles:
@@ -166,13 +164,13 @@ These particles follow the verbs to choose the desired slot. Let's talk about po
 You may have this question now: how did that "I" slip into the translation? Vagueness. The sentence is vague, that is, the talker isn't specified. It could be me, that rock or the same potato. When a slot isn't specified, it's ignored.
 
 ### 4.6. Relation triangles
-It sometimes is that we want to express a relation of three verbs. For example, while "weird potato" (`heq palkei`) is a relation of two verbs, "weird talking potato" is of three. Yet, we need a way to have such a relation. In order to stick a third verb to form a triangle, use the word "roi":
+It sometimes is that we want to express a relation of three verbs. For example, while "weird potato" (`heq palkei`) is a relation of two verbs, "weird talking potato" is of three. Yet, we need a way to have such a relation. In order to stick a third verb to form a triangle, use the word "ro":
 
-* `roi` (ROI) - add a third (fourth...) verb to a connection
+* `ro` (RO) - add a third (fourth...) verb to a connection
 
 Now, "weird talking potato" would be:
 
-* `heq taq roi palkei`  
+* `heq taq ro palkei`  
  "weird talking potato"
 
 ### 4.7. Unary connections
@@ -181,7 +179,7 @@ While we can now handle cases with two, three, four, and even more connections, 
 * `palkei` (incorrect!)  
  "potato (...?)"
 
-In order to make a sentence "Something is a potato", we have to coerce it into a binary connection with `co`.
+A second verb `palkei` would attach to is expected; thus, this sentence is incomplete. In order to make a sentence "Something is a potato", we have to pretend it's a binary connection by using `co`.
 
 * `co` (WO) - vague verb
 
@@ -202,30 +200,14 @@ First, let's learn how to use names. How does one say "name"? In Tcaingwaq, it i
 
 * `naiq` - A is the name of B given by C
 
-But how to quote a name to use it with naiq's A? 
-There's a series of words to quote and use names:
-            Name Thing named
-1 syllable  mya  da
-2 syllables mye  de
-3 syllables myi  di
-4 syllables myo  do
-5 syllables myu  du
-All particles from the "Name" and "Thing named" column create a verb "A is the name [name]" or "A is the one called [name]", respectively.
-For example:
-(1) de-Tcaingwaq
-    the.one.named-"Tcaingwaq"
-    Tcaingwaq; to be Tcaingwaq
-Please note that there already is a word for Tcaingwaq, "tcaingwaq". (duh)
-(2) mye-Suzen
-    the.name-"Suzen"
-    the name "Susan"
-Now we can actually use "naiq" like this:
-(3) naiq myo-Halesanda
-    "The name is "Alexander""; "Name's Alexander"
-But there are other (shorter) ways:
-(4) wai di-Maruku
-    "I'm Mark"
-Now, what's the restriction? Well, to keep everything clean, the quoted text must be coerced into a sequence of Tcaingwaq syllables. Thus, "Alexander" has become "Halesanda", "Susan" - "Suzen" and so on.
+But how to quote a name to use it with naiq's A? And how to name things with their real names?
+
+The answer is simple - make the name a Tcaingwaq verb! Examples:
+
+* Alexander > `hanrensanda`
+* [TODO]
+
+The overall pattern is simple: disperse the name into simple syllables, then add -n to all of them (except at the end).
 
 ### 5.2. Someone's words
 [(quoting) TODO]
@@ -240,18 +222,20 @@ It sometimes is that we want to refer to some particular event. In order to do t
 
 Let's have a look at some examples:
 
-* `wai diaq wo so fe beq`  
+* `wa diaq wo so fe beq`  
  me.A see.A | \*see.B the.event.of(you.A eat.A).A  
  "I see an event of you eating"; "I see that you eat"
 * `so fe palkei heq`  
  the.event.of(you.A potato.A).A weird.A  
  "There's a weird thing that is the event of you being a potato"; "That you're a potato is weird"
  
-There's also a YU version of "so" for convenience, "zo":
+There's also a YU version of `so` for convenience, `zo`:
 
 * `diaq kioq-zo`  
  see.A die-event.A  
- "I see death"
+ "I see someone's dying"; "I see death"
+ 
+While `kioq` is "A dies by standard B", `kioq-zo` is "A is B's dying by standard C". That makes it mean "someone's dying/death" in this context.
 
 ### 6.2. Traits
 Traits are like events, but differ in usage. They have an assumed slot for a verb to be passed in. Just like in real life, traits are possessed by things, and so a Tcaingwaq trait is possessed by all the things the verbs of which fit into the slot. Because of the nature of traits, a different syntax is used. Thus, let's introduce the class YU's member, `su`:
@@ -262,61 +246,30 @@ For example, if verb `taq` is "A talks to B about C", then `taq-su` is "A is the
 Let's piece up a simple example:
 
 * `hyoiq-yu taq-su wo fe`  
- want-B talking-trait.A \*talking.trait.B you.A
-
-### 6.3. Relations {FIX!!!!!!!}
-[Relations are relations (duh) of two or more objects. To express them, use the word "lai":
-    lai (SO) - turns connection into verb: A is a relation of [the connection]; binds "mau" in the enclosed connection
-    mau (WO) - stands for one of the related objects FIX]
+ want-B talking-trait.A \*talking.trait.B you.A  
+ "I want (to have the) trait of talking to you"; "I want to talk to you"
 
 ### 6.3. Facts
-There are things that may not be the truth, but we want to express anyway. (...)
-
-[... will elaborate on abstractions; for now, let's forget about them and work on loanwords]
-
-## 7. New things
-
-### 7.1. Makeshift words
-Sometimes language doesn't provide us with all the concepts we need for communication; even if it did, we'd never know them. While there may be some loanworded concepts in the dictionary already, it sometimes is required to create a word on the fly. 
-Tcaingwaq provides us with a quite limited syllable structure, so words need to be reduced in the coda (the part of the syllable after the vowel) - we must put -n or -l in the middle of the word, and -q or nothing at the end. There are two patterns one can use to make a good loanword:
-
-- ignore the codas entirely, and use whichever of -n/-l fits better; or
-- intertwine the codas with vowels.
-
-[EXAMPLES]
-
-### 7.2. New concepts
-[TODO]
-
+There are things that may not be the truth, but we want to express anyway.
 
 ## . Lexicon
 
 ### Particles:
 * co (WO) - vague verb
-* da (DA1) - change one-syllable name into verb: A is called [the name]
-* de (DA2) - change two-syllable name into verb: A is called [the name]
-* di (DA3) - change three-syllable name into verb: A is called [the name]
-* do (DA4) - change four-syllable name into verb: A is called [the name]
-* du (DA5) - change five-syllable name into verb: A is called [the name]
 * fe (WO) - A is you, the listener
-* gyu (YU) - use the D slot of a verb; this word doubled/tripled/... refers to the E/F/... place
-* mya (DA1) - change one-syllable name into verb: A is the name [the name]
-* mye (DA2) - change two-syllable name into verb: A is the name [the name]
-* myi (DA3) - change three-syllable name into verb: A is the name [the name]
-* myo (DA4) - change four-syllable name into verb: A is the name [the name]
-* myu (DA5) - change five-syllable name into verb: A is the name [the name]
+* gu (YU) - use the D slot of a verb; this word doubled/tripled/... refers to the E/F/... place
 * ju (YU) - use the C slot of a verb
-* roi (ROI) - add a third (fourth...) verb to a connection
+* na (YU) - signifies that the preceding verb is actually a name
+* ro (RO) - add a third (fourth...) verb to a connection
 * so (SO) - turns connection into verb: A is the event of [the connection]
 * su (SU) - turns verb into verb: A is the trait of [verb]-ing ([verb]'s non-A places follow)
-* wai (WO) - A is me, the speaker
+* wa (WO) - A is me, the speaker
 * wo (WO) - repeat the preceding verb (or another "wo" if present), using the first open slot
 * yu (YU) - use the B slot of a verb
 * zo (YU) - turns verb into verb: A is the trait of [verb]-ing of (... [verb]'s places follow)
 
 ### Classes:
-* DA - (class of classes) quote some number of syllables
-* ROI - connects a connection to the following verb
+* RO - connects a connection to the following verb
 * SO - turn following connection into verb
 * WO - act just as verbs
 * YU - modify preceding verbs
