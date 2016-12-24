@@ -137,7 +137,7 @@ We need a way to express that B, the one to whom I talk. We need a verb for that
 
 This lets us break down a sentence into two: "I talk. You are the person talked to". The difference between this rough translation and what we're trying to say is that the two "talk"s are refering to the same relation. Let's proceed to the sentence:
 
-* wa taq wo fe  
+* `wa taq wo fe`  
  me.A talk.A \*talk.B you.A  
  "I talk; and the talker of that is you"; "I talk to you"
 
@@ -145,7 +145,7 @@ Here, the referentiality is marked with an asterisk (\*).
 
 If there's more than just one thing to glue, you can repeat `wo`. For example:
 
-* wa taq wo fe wo palkei  
+* `wa taq wo fe wo palkei`  
  me.A talk.A \*talk.B you.A \*talk.C potato.A  
  "I talk to you about a potato"
 
