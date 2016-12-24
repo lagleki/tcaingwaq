@@ -1,0 +1,13 @@
+beq - eat - A eats B
+diaq - see - A sees B by means C (relation of A and B)
+gwaq - language - A is a language that expresses B (idea) as C (quote)
+heq - weird - A (event) is weird to B because of its C (trait)
+hyoiq - want - A wants B (event/trait, not object)
+koiq - die - A dies by standard B (trait determining death)
+naiq - name - A (quote) is the name of B given by C
+taq - talk - A talks to B about C
+tcaingwaq - Tcaingwaq - A is of Tcaingwaq in trait B
+tcaiq - different - A is different than B
+palkei - potato - A is a potato from plant B
+sfuq - trait - A (trait) is a trait of B; B is A-ish
+syoq - happen - A (event) happens

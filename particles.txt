@@ -1,0 +1,12 @@
+co (WO) - vague verb
+fe (WO) - A is you, the listener
+gu (YU) - use the D slot of a verb; this word doubled/tripled/... refers to the E/F/... place
+ju (YU) - use the C slot of a verb
+na (YU) - signifies that the preceding verb is actually a name
+ro (RO) - add a third (fourth...) verb to a connection
+so (SO) - turns connection into verb: A is the event of [the connection]
+su (SU) - turns verb into verb: A is the trait of [verb]-ing ([verb]'s non-A places follow)
+wa (WO) - A is me, the speaker
+wo (WO) - repeat the preceding verb (or another "wo" if present), using the first open slot
+yu (YU) - use the B slot of a verb
+zo (YU) - turns verb into verb: A is the trait of [verb]-ing of (... [verb]'s places follow)

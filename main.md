@@ -29,8 +29,7 @@ by uakci
   3. Facts
   4. Other uses of the patterns
   5. Coersion
-8. Lexicon
-9. Sample texts
+7. Sample texts
 
 ## 1. Introduction
 
@@ -231,9 +230,9 @@ Let's have a look at some examples:
  
 There's also a YU version of `so` for convenience, `zo`:
 
-* `diaq kioq-zo`  
- see.A die-event.A  
- "I see someone's dying"; "I see death"
+* `diaq-yu kioq-zo`  
+ see-B die-event.A  
+ "The dying of someone is seen"; "I see someone dying"
  
 While `kioq` is "A dies by standard B", `kioq-zo` is "A is B's dying by standard C". That makes it mean "someone's dying/death" in this context.
 
@@ -251,43 +250,6 @@ Let's piece up a simple example:
 
 ### 6.3. Facts
 There are things that may not be the truth, but we want to express anyway.
-
-## . Lexicon
-
-### Particles:
-* co (WO) - vague verb
-* fe (WO) - A is you, the listener
-* gu (YU) - use the D slot of a verb; this word doubled/tripled/... refers to the E/F/... place
-* ju (YU) - use the C slot of a verb
-* na (YU) - signifies that the preceding verb is actually a name
-* ro (RO) - add a third (fourth...) verb to a connection
-* so (SO) - turns connection into verb: A is the event of [the connection]
-* su (SU) - turns verb into verb: A is the trait of [verb]-ing ([verb]'s non-A places follow)
-* wa (WO) - A is me, the speaker
-* wo (WO) - repeat the preceding verb (or another "wo" if present), using the first open slot
-* yu (YU) - use the B slot of a verb
-* zo (YU) - turns verb into verb: A is the trait of [verb]-ing of (... [verb]'s places follow)
-
-### Classes:
-* RO - connects a connection to the following verb
-* SO - turn following connection into verb
-* WO - act just as verbs
-* YU - modify preceding verbs
-
-### Verbs:
-* beq - eat - A eats B
-* diaq - see - A sees B by means C (relation of A and B)
-* gwaq - language - A is a language that expresses B (idea) as C (quote)
-* heq - weird - A (event) is weird to B because of its C (trait)
-* hyoiq - want - A wants B (event/trait, not object)
-* koiq - die - A dies by standard B (trait determining death)
-* naiq - name - A (quote) is the name of B given by C
-* taq - talk - A talks to B about C
-* tcaingwaq - Tcaingwaq - A is of Tcaingwaq in trait B
-* tcaiq - different - A is different than B
-* palkei - potato - A is a potato from plant B
-* sfuq - trait - A (trait) is a trait of B; B is A-ish
-* syoq - happen - A (event) happens
 
 ## . Sample texts
 * Pepper & Carrot

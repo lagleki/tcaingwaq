@@ -1,0 +1,11 @@
+RO: connection RO verb -> connection
+binds a verb to a connection
+
+SO: SO connection -> verb
+turns following connection into verb
+
+WO: WO -> verb
+works as a verb
+
+YU: verb YU -> verb
+modifies preceding verbs
