@@ -11,3 +11,7 @@ tcaiq - different - A is different than B
 palkei - potato - A is a potato from plant B
 sfuq - trait - A (trait) is a trait of B; B is A-ish
 syoq - happen - A (event) happens
+??? - talk - A talks about B to C
+??? - say - A says B (text) to C
+??? - explain - A explains that B to C; B is an explanation; B1 is explained as having B2 (trait)
+??? - describe - A describes that B to C; B is a description; B1 is described as having B2 (trait)
