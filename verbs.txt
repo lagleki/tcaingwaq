@@ -9,9 +9,8 @@ taq - talk - A talks to B about C
 tcaingwaq - Tcaingwaq - A is of Tcaingwaq in trait B
 tcaiq - different - A is different than B
 palkei - potato - A is a potato from plant B
+psiq - describe - A describes that B to C; B is a description
+saq - say - A says B (text) to C
 sfuq - trait - A (trait) is a trait of B; B is A-ish
+syaq - explain - A explains that B to C; B is an explanation
 syoq - happen - A (event) happens
-??? - talk - A talks about B to C
-??? - say - A says B (text) to C
-??? - explain - A explains that B to C; B is an explanation; B1 is explained as having B2 (trait)
-??? - describe - A describes that B to C; B is a description; B1 is described as having B2 (trait)
